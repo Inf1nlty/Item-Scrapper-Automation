@@ -1,11 +1,11 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.item_scrapper_automation.mixin",
+  "package": "com.inf1nlty.item_scrapper_automation.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
-    "com.inf1nlty.item_scrapper_automation.mixin.ScrapperBlockEntityMixin",
-    "com.inf1nlty.item_scrapper_automation.mixin.DeployerHandlerMixin"
+    "ScrapperBlockEntityMixin",
+    "DeployerHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
