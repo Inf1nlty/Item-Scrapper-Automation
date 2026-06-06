@@ -8,7 +8,7 @@ It adds automation support for the Scrapper block:
 - Horizontal sides accept valid scrappable input items.
 - The bottom side exposes output slots for extraction.
 - Create Deployers can use a Scrapping Hammer to automate scrapping hits.
-- A common config option controls how much progress each Deployer hammer hit adds.
+- Common config options control Deployer hit progress, Scrapping Hammer durability cost per automated hit, and whether automation stops before breaking the hammer.
 
 ## Dependencies
 

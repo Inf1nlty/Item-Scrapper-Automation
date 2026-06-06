@@ -13,6 +13,6 @@ public final class ItemScrapperAutomationAddon {
     public static final Logger LOGGER = LogUtils.getLogger();
 
     public ItemScrapperAutomationAddon(FMLJavaModLoadingContext context) {
-        context.registerConfig(ModConfig.Type.COMMON, ModConfigHandler.SPEC);
+        context.registerConfig(ModConfig.Type.COMMON, ItemScrapperAutomationConfig.SPEC);
     }
 }
